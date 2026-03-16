@@ -1,13 +1,9 @@
 ## General Principles
 
----
-
 - Naming Conventions: Use camelCase, with uppercase letters to separate words.
 - Language: English
 
 ## Table Naming Conventions
-
----
 
 ### Bronze Rules
 
@@ -37,8 +33,6 @@
 
 ## Column Naming Conventions
 
----
-
 ### Surrogate Keys
 
 - All primary keys in dimension tables must use the suffix Key.
@@ -56,8 +50,6 @@
     - Example: `dwhLoadDate` → System-generated column used to store the date when the record was loaded.
 
 ## Stored Procedure
-
----
 
 - All stored procedures used for loading data must follow the naming patter: `load<Layer>`.
     - `<layer>`: Represents the layer being loaded, such as `bronze`, `silver`, or `gold`.
