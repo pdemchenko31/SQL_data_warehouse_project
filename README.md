@@ -32,8 +32,8 @@ SQL Development
 │   ├── etl.drawio                      # [Draw.io](http://draw.io/) file shows all different techniquies and methods of ETL
 │   ├── dataArchitecture.drawio        # [Draw.io](http://draw.io/) file shows the project's architecture
 │   ├── dataCatalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── dataFlow.drawio                # [Draw.io](http://draw.io/) file for the data flow diagram
-│   ├── dataModels.drawio              # [Draw.io](http://draw.io/) file for data models (star schema)
+│   ├── dataFlow.drawio                # [Draw.io](http://draw.io/) file for the data flow diagram│   
+├── dataModels.drawio              # [Draw.io](http://draw.io/) file for data models (star schema)
 │   ├── namingConventions.md           # Consistent naming guidelines for tables, columns, and files
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
