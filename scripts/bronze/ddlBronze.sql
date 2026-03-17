@@ -1,14 +1,16 @@
 /* 
 ==================================================================
-Create Tables
+DDL: Create Tables
 ==================================================================
-This script creates new tables called after checking if they already exist.
+This script creates new tables in the 'bronze' schema, after checking if they already exist.
 If table exists, it is dropped and recreated.
+Run this script to re-define entire DDL structure
 
 WARNING:
   Running this script will drop entire tables.
   All data in the tables will be permanently deleted.
   Proceed with caution.
+==================================================================
 */
 
 --Check and drop if exists
