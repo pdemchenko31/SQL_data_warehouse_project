@@ -1,5 +1,20 @@
+/* 
+==================================================================
+Create Tables
+==================================================================
+This script creates new tables called after checking if they already exist.
+If table exists, it is dropped and recreated.
+
+WARNING:
+  Running this script will drop entire tables.
+  All data in the tables will be permanently deleted.
+  Proceed with caution.
+*/
+
+--Check and drop if exists
 IF OBJECT_ID ('bronze.crmCustInfo', 'U') IS NOT NULL
 	DROP TABLE bronze.crmCustInfo;
+--Create new table
 CREATE TABLE bronze.crmCustInfo (
 	cstID INT
 	, cstKey NVARCHAR(50)
