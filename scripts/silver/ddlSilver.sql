@@ -1,3 +1,18 @@
+/* 
+==================================================================
+DDL: Create Tables
+==================================================================
+This script creates new tables in the 'silver' schema, after checking if they already exist.
+If table exists, it is dropped and recreated.
+Run this script to re-define entire DDL structure
+
+WARNING:
+  Running this script will drop entire tables.
+  All data in the tables will be permanently deleted.
+  Proceed with caution.
+==================================================================
+*/
+
 --Check and drop if exists
 IF OBJECT_ID ('silver.crmCustInfo', 'U') IS NOT NULL
 	DROP TABLE silver.crmCustInfo;
