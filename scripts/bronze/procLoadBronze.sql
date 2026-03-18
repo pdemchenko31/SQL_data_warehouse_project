@@ -15,6 +15,7 @@ Parameters:
 
 Usage Example:
     EXEC bronze.loadBronze;
+==================================================================
 */
 --Create procedure
 CREATE OR ALTER PROCEDURE bronze.loadBronze AS
